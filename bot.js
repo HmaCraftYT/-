@@ -4,13 +4,6 @@ const client = new Discord.Client();
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!,script by HemaCraft`);
 });
- 
- client.on("ready", () => { // ßæÏ ÑíäÈæ
-  function lol() {
-    client.guilds.get('527193373916921887').roles.find("name", "rainbow").setColor("RANDOM");
-  };
-  setInterval(lol, 5000);
-});
 var prefix = '-';
 
 const developers = ["509778004331855875","id"]
